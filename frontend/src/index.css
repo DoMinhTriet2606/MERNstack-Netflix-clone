@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .hero-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("hero.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("/hero.png");
 }
 
 .shimmer {
@@ -33,9 +33,9 @@
     );
 
     position: absolute;
-    bottom: -10vw;
+    bottom: -10vh;
     left: 10vw;
     right: 10vw;
-    top: -10vw;
+    top: 4vh;
     z-index: -1;
 }
